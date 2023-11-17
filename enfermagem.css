@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#naveg {
+    display: flex;
+    height: 3rem;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #56B28033;
+    background-color: beige;
+}
+
+#endereco {
+    display: flex;
+    gap: 2rem;
+}
+
+#botao {
+    border: none;
+    color: aliceblue;
+    background-color: #30aaa0;
+    height: 1.5rem;
+    width: 8rem;
+    border-radius: 0.2rem;
+}
+
+#logos {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    height: 6rem;
+    margin-left: 6rem;
+}
+
+#opcoes {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 3rem;
+    background-color: #1e1b54;
+    color: #fff;
+    align-items: center;
+}
+
+.selecao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid #fff;
+    height: 3rem; 
+}
+
+.borda {
+    margin-left: 1rem;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    height: 3rem;
+}
+
+#home li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: open sans-serif;
+}
+
+#pacientes {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    height: 3rem;
+}
+
+#pacientes li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: open sans-serif;
+}
+
+#profissinais {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    height: 3rem;
+}
+
+#profissinais li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: open sans-serif;
+}
+
+#ensino {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    height: 3rem;
+}
+
+#ensino li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: open sans-serif;
+}
+
+#hospital {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    height: 3rem;
+}
+
+#hospital li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: open sans-serif;
+}
+
+#campanhas {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+#campanhas li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: open sans-serif;
+}
+
+#bkg-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Imagens/background-HC.png);
+    height: 4rem;
+    color: #fff; 
+    font-family: open sans-serif;
+}
+
+#img-enfermagem {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#img-e {
+    width: 360px;
+    height: 360px;
+}
+
+#titulo {
+    display: inline-block;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 32px;
+    margin-left: 4rem;
+}
+
+#linha {
+    height: 5px;
+    width: 122px;
+    color: #1e1b54;
+    background-color: #1e1b54;
+}
+
+#paragrofo-1{
+    display: inline-block;
+    text-align: justify;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 16px;
+    margin-top: 1rem;
+    width: 770px;
+}
+
+
+#paragrofo-2{
+    display: inline-block;
+    text-align: justify;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 16px;
+    margin-top: 2rem;
+    width: 770px;
+}
+
+#paragrofo-3{
+    display: flex;
+    text-align: justify;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    width: 92%;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 18px;
+}
+
+#paragrofo-4 {
+    display: flex;
+    text-align: justify;
+    margin-left: 2rem;
+    width: 92%;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 18px;
+}
+
+#paragrofo-5 {
+    display: flex;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 92%;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 18px;
+}
+
+#lista {
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 92%;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 18px;
+}
+
+
+#sub-titulo {
+    display: flex;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 92%;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 20px;
+}
+
+#info {
+    background-color: #1e1b54;
+    margin-top: 2rem;
+    height: 17rem;
+}
+
+#barra-final {
+    background-color: #30aaa0;
+}
+
+#txt-final {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #212121;
+    font-family: open sans-serif;
+    font-size: 14px;
+}

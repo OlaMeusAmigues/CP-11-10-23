@@ -24,7 +24,7 @@ a{
     "bd"
     "nd";
     grid-template-columns: 100%;
-    grid-template-rows: 48px 131px 52px 708px 254px 60px;
+    grid-template-rows: 48px 131px 52px 708px 230px 54px;
 }
 
 
@@ -175,11 +175,18 @@ a{
 }
 #zdivpesquisa{
     background-color: #F7F7F7;
+    border: solid rgb(238, 238, 238);
+    width: 200px;
+    height: 30px;
 }
 #zdivbotao{
     background-color: #30AAA0;
     color: #ffffff;
     border: 0px;
+    width: 130px;
+    height:30px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
